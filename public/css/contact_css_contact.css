@@ -1,0 +1,68 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+	background-color: black;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 0px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: white;
+	opacity: 0.2;
+    border-radius: 2px;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+
+
+body{
+   
+}
+.jumbotron{
+
+	width:100%;
+	opacity:0.6;
+background-color: black;
+	
+        padding-left: 100px;
+        padding-right: 100px;
+	
+	-webkit-animation-delay:1s;
+	-webkit-animation-duration:1s;
+    height:50px;
+}
+
+.cont{
+    background-color: black;
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;
+    margin-top:-25px;
+	background-attachment:fixed;
+    height:100px;
+}
+.jumbotron p{
+	color:rgb(49, 12, 52);
+	word-spacing:.8em;
+	font-family: 'Indie Flower', cursive;
+}
+.jumbotron h1{
+	font-family: 'Pacifico', cursive;
+	
+}
+mark{
+	font-family: 'Lobster', cursive;
+}
+#header{
+	font-family: 'Pacifico', cursive;
+	color:white;
+}
+
+
+ h1{
+	font-family: 'Bad Script', cursive;
+     color:white;
+}
+
+

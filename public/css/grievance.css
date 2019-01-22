@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+	background-color: black;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 0px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: white;
+	opacity: 0.2;
+    border-radius: 2px;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+
+
+body{
+	
+	margin:0px 0px 0px 0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+mark{
+	font-family: 'Lobster', cursive;
+}
+#header{
+	font-family: 'Orbitron', cursive;
+	color:white;
+}
+
+#col3{
+	padding-bottom:20px;
+}
+ h1{
+	font-family: 'Bad Script', cursive;
+}
+.jumbo{
+	background-image:url("../images/download.jpg");
+	background-size:cover;
+position:relative;
+	opacity:0.6;
+	background-attachment:fixed;
+    height:300px;
+
+}
+
+#p {
+	padding-top: 25px; 
+	font-family: 'Raleway', sans-serif;
+	line-height:2.3em;
+	font-size:0.9em;
+	word-spacing:.5em;
+}
+.footer{
+	padding-top:100px;
+	background-color:skyblue;
+	color:white;
+}
+h3{
+	font-size:1.3em;
+}
+.active{
+	color:yellow;
+}
+.btn,.btn:hover{
+    background-color: #607d8b;
+}
+.grieve{
+    background-color:rgba(0,0,0,0.9);
+    color:white;
+    margin-top:-30px;
+    height:306px;
+}
+.h1{
+padding-top: 116px;
+    padding-bottom: 200px;
+    padding-left:35%;
+    
+}
+.p
+{
+    padding-top: 50px;font-size:18px; 
+}
+footer.page-footer{
+   box-shadow: 0px 0px 25px #111213;
+}
+@media screen and (max-width: 450px) {	
+    .jumbotron,.grieve{
+        height:207px;
+    }
+    .h1{
+        padding-top:77px;
+       
+         font-size:3.2rem;
+    }
+    .p{
+        font-size:15px;
+       padding-top:0px;
+    }
+    #p
+    {
+         padding-top:30px;
+    }
+    h5{
+        font-size:1.2rem;
+    }
+    
+}
+@media screen and (max-width: 1150px) {
+    .container{
+        width:90%;
+    }

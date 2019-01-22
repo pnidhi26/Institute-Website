@@ -1,0 +1,11 @@
+nav {
+	position:fixed;
+	background:white;
+	z-index:10000;
+	width:100%;
+	font-size:20px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+

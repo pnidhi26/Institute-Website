@@ -1,0 +1,353 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: black;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: white;
+	opacity: 0.2;
+    border-radius: 2px;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+
+nav ul li.active{
+    background-color: white;
+
+}
+nav ul li.active a{
+    color:#00838f;
+}
+nav-wrapper .a{
+    color:black;
+
+}
+nav{
+    background-color:white;
+    color:black;
+    box-shadow: 0 0 20px #111213;
+}
+nav ul a{
+    color:black;
+    font-size:17px;
+}
+nav ul a:hover{
+    color:#00838f;
+     background-color: white;
+}
+.team{
+	padding:5em 0;
+	text-align:center;
+}
+.team-grids {
+  position: relative;
+}
+.team-info {
+  margin-top: 3em;
+}
+.team-grids a {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.captn h4 {
+  color: #fff;
+  margin: .1em 0 0;
+  font-size: 1.5em;
+}
+.captn p {
+    color: skyblue;
+    font-size: 0.95em;
+    font-weight: 100;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.team-grids a .captn {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  font-weight: 800;
+  color: orange;
+  position: absolute;
+  bottom: -84%;
+  right: 0%;
+  background-color:rgba(78, 97, 84, 0.78);
+  padding: 2% 10%;
+  text-align: center;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.team-grids a:hover .captn {
+  width: 100%;
+  bottom: 0%;
+  padding: 40% 10%;
+    right: 0%;
+}
+img{
+    width:300px;
+    height:250px;
+}
+.rahul img{
+    width:200px;
+    height:250px;
+}
+.nihal img{
+   width:200px;
+    height:250px;
+    left:-60px;
+    position:
+}
+.dubey img{
+     width:200px;
+    height:250px;
+}
+h4{
+	 font-family: 'Cinzel', cursive;
+}
+
+.slider .slides{
+    background-color:black;
+    color:white;
+    height:540px;
+}
+
+
+
+
+#message{
+padding-top:50px;
+    background-color:black;
+    color:white;
+}
+#messageA{
+border-radius: 15px 50px;
+border-style:;
+border-color:red;
+
+
+
+    height: 400px;
+}
+#messageAimg{
+
+height:400px;
+float:left;
+}
+#messageAtxt{
+
+
+
+
+text-align:left;
+float:right;
+border-radius: 15px 50px;
+font-size:17px;
+border-right:6px solid black;
+
+}
+
+.wardenimg {
+
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+border-radius: 15px 50px;
+height:360px;
+    padding: 20px;
+border-left:6px solid black;
+
+}
+.wardenimg1 {
+
+  background-color:;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+border-radius: 15px 50px;
+height:360px;
+    padding: 20px;
+border-right:6px solid black;
+
+}
+
+.wardenprofile {
+  text-align: center;
+  padding: 10px 20px;
+
+   }
+#rcorners6 {
+    border-radius: 15px 50px;
+    background:black;
+    padding: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+
+#messageB{
+border-radius: 15px 50px;
+border-style:;
+border-color:red;
+height: 400px;
+}
+#messageBimg{
+
+height:400px;
+
+}
+#messageBtxt{
+padding:20px;
+border-radius: 15px 50px;
+font-size:17px;
+
+
+}
+
+#rcorners6 {
+    border-radius: 15px 50px;
+    background:black;
+    padding: 0px;
+    width: 95%;
+    height: 200px;
+}
+.slider
+{
+     position:relative;
+    top:0px;
+
+
+    background-color: black;
+
+}
+
+
+.slider .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 50px;
+  width: 117px;
+  margin: 0 1px;
+  background-color: white;
+  transition: background-color .3s;
+  border-radius: 0%;
+    z-index:6;
+}
+.slider .indicators .indicator-item.active{
+    background-color:black;
+    color:white;
+}
+.slider .indicators{
+    z-index:6;
+    position: relative;
+    top:-34px;
+}
+
+.indicator-item:nth-child(1)::before {
+    content: "Hall Executive Committee";
+}
+.indicator-item:nth-child(2)::before {
+    content: "Hall Executive Committee";
+}
+.indicator-item:nth-child(3)::before {
+    content: "Web Support Committee";
+}
+.indicator-item:nth-child(4)::before {
+    content: "Sport and Game Committee";
+}
+.indicator-item:nth-child(5)::before {
+    content: "Reading/TV Room Committee";
+}
+.indicator-item:nth-child(6)::before {
+    content: "Garden Committee";
+}
+.indicator-item:nth-child(7)::before {
+    content: "Cultural Committee";
+}
+footer.page-footer{
+    background-color:white;
+
+}
+footer .page-footer{
+    color:black;
+}
+footer.page-footer .footer-copyright{
+    background-color:black;
+}
+
+.wardenimg img{
+width:100px;
+    height:230px;
+}
+.h4{
+    font-size:20px;
+}
+@media screen and (max-width: 450px) {
+    #messageAtxt,#messageBtxt{
+        padding-left:46px;
+        padding:0px;
+        font-size:9px;
+
+    }
+    #wardenimg img,#wardenimg1 img{
+        width:83px;
+        height:128px;
+    }
+    h5{
+        font-size:1.0rem;
+    }
+    .h4{
+        font-size:12px;
+    }
+    .wardenimg,.wardenimg1{
+        padding:0px;
+    }
+    #rcorners6{
+        width:100%;
+        height:100px;
+    }
+    .wardenprofile{
+ padding:0px;
+    }
+    .wardenprofile h4{
+        font-size:12px;
+    }
+
+    .team-grids a .captn{
+        width:100%;
+        height:190px;
+        right:0%;
+    }
+    .slider .slides{
+        height:auto;
+        margin-bottom:30px;
+    }
+    .slider .indicators .indicator-item {
+        height:38px;
+        width:91px;
+    }
+    h4{
+    font-size:25px;
+}
+    }
+
+    @media screen and (max-width: 768px) {
+        .slider .indicators .indicator-item {
+        height:50px;
+        width:91px;
+    }
+       #messageAtxt,#messageBtxt{
+        padding-left:46px;
+        padding:0px;
+        font-size:13px;
+
+    }
+        .h4{
+            font-size:17px;
+        }

@@ -1,0 +1,256 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+	background-color: black;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 0px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: white;
+	opacity: 0.2;
+    border-radius: 2px;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+
+nav ul li.active{
+    background-color: white;
+   
+}
+nav ul li.visited{
+    background-color: black;
+   
+}
+nav ul li.active a{
+    color:#00838f;
+}
+nav-wrapper .a{
+    color:black;
+    
+}
+nav{
+    background-color:white;
+    color:black;
+    box-shadow: 0 0 20px #111213;
+}
+nav ul a{
+    color:black;
+    font-size:17px;
+}
+nav ul a:hover{
+    color:#00838f;
+     background-color: white;
+}
+.slider .slides li img{
+   
+  background-repeat: no-repeat;
+    -webkit-animation: myfirst 20s; /* Chrome, Safari, Opera */
+    animation: myfirst 2000;
+    animation-play-state: running;
+    -webkit-animation-play-state: running;
+ 
+}
+@-webkit-keyframes myfirst {
+    from {
+    background-position: bottom center;
+   
+    }
+    to { 
+      background-position: top center;
+     
+    }
+}
+.slider
+{
+     position:relative;
+    top:0px;
+   height:600px;
+  width:100%;
+    background-color: white;
+    
+
+   
+   
+}
+
+.rr{
+    position:relative;
+    top:100px;
+    height:750px;
+    color:white;
+    text-align:center;
+    background-color: black;
+    
+    
+}
+.rr p{
+    font-size:18px;
+}
+h4{
+    color:white;
+}
+
+.slider .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 12px;
+  background-color: #e0e0e0;
+  transition: background-color .3s;
+  border-radius: 0%;
+    z-index:6;
+}
+.slider .indicators .indicator-item.active{
+    background-color:black;
+}
+.slider .indicators{
+    z-index:6;
+    position: relative;
+    top:-34px;
+}
+
+.service{
+    position:relative;
+    width:100%;
+    height:auto;
+    
+    background-image:url('../images/hall49.JPG');
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+.he{
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
+section.service h4.text-center {
+	text-align: center;
+	color: #fff;
+	font-weight:300;
+	padding:80px 0 20px 0;
+	font-family: 'Nunito', sans-serif;
+}
+section.service p.text-center {
+	font-size:17px;
+    text-align: center;
+	color: #fff;
+	font-weight:inherit;
+	padding:0px 0 70px;
+} 
+section.service i.fa {
+	font-size: 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+    width: 75px;
+    line-height: 74px;
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+	background-color:transparent;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+}
+section.service i.fa:hover {
+	background-color:#fff;
+	border:1px solid #fff;
+	color:#D46767;
+}
+section.service .serv-info {
+    margin-left: -57px;
+    margin-top:-16px;
+}
+section.service .serv-info h4 {
+	font-size:25px;
+	font-weight:500;
+	padding:0 0 5px;
+	color:#fff;
+}
+section.service .serv-info p.serv {
+	font-size:16px;
+	font-weight:inherit;
+	padding-bottom:50px;
+	line-height:30px;
+	color:#fff;
+}
+section.service i.fa.fa-university {
+	padding-left:3px;
+}
+
+
+.h4{
+    margin-top:50px;
+}
+.slider .slides li .caption {
+  color: #fff;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  width: 60%;
+  opacity: 0;
+}
+.b{
+    position:relative;
+   background: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    height:581px;
+    z-index:4;
+  
+}
+.fac{
+     background: rgba(2, 2, 2, 0.7);
+}
+footer.page-footer{
+    background-color:white;
+       
+}
+footer .page-footer{
+    color:black;
+}
+footer.page-footer .footer-copyright{
+    background-color:black;
+}
+footer.page-footer{
+   box-shadow: 0px 0px 25px #111213;
+}
+@media screen and (max-width: 450px) {	
+    .rr{
+        height:770px;
+    }
+    .rr p,section.service p.text-center,section.service .serv-info p.serv{
+        font-size:14px;
+    }
+    section.service .serv-info h4,section.service h4.text-center{
+        font-size:21px;
+    }
+}
+@media screen and (max-width: 768px) {
+    section.service .serv-info{
+        margin-left:-5px;
+    }
+    section.service .serv-info p.serv{
+        font-size:14px;
+    }
+    section.service .serv-info h4{
+        font-size:22px;
+    }
+}
+a.nav-active {
+    color:#00838f;
+     background-color: white;
+}
+.tabs .indicator{
+  background-color: black;
+}
